@@ -1,0 +1,1072 @@
+2026-06-22 01:50:42,771 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 01:50:43,764 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-06-22 01:50:43,777 [INFO] BhumiBilling.Backup: Auto-backup completed: G:\bhumi billing\data\backups\bhumi_billing_backup_20260622.db
+2026-06-22 01:50:47,302 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 01:51:12,318 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 01:51:12,368 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 01:51:13,809 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 01:58:14,901 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 01:58:14,996 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 01:58:16,817 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 01:58:32,071 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 01:58:32,159 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 01:58:34,389 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 01:58:42,016 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 01:58:42,064 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 01:58:43,489 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 01:59:59,632 [ERROR] BhumiBilling.PrintManager: Printing failed: 'PySide6.QtGui.QPagedPaintDevice.setPageMargins' called with wrong argument types:
+  PySide6.QtGui.QPagedPaintDevice.setPageMargins(QMarginsF, Unit)
+Supported signatures:
+  PySide6.QtGui.QPagedPaintDevice.setPageMargins(Union[PySide6.QtCore.QMarginsF, PySide6.QtCore.QMargins], PySide6.QtGui.QPageLayout.Unit = Instance(QPageLayout.Millimeter))
+2026-06-22 02:02:56,448 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:02:56,581 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:02:58,363 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:03:43,956 [ERROR] BhumiBilling.PrintManager: Printing failed: PySide6.QtGui.QPagedPaintDevice.setPageMargins(): too many arguments
+2026-06-22 02:03:51,054 [ERROR] BhumiBilling.PrintManager: Printing failed: PySide6.QtGui.QPagedPaintDevice.setPageMargins(): too many arguments
+2026-06-22 02:05:03,423 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:05:03,469 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:05:04,670 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:07:48,241 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:07:48,288 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:07:49,497 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:18:32,723 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:18:32,768 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:18:34,358 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:22:58,335 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:22:58,376 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:22:59,701 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:33:35,349 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:33:35,395 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:33:35,973 [CRITICAL] BhumiBilling.Main: Failed to launch application context: 'TallyWidget' object has no attribute 'print_selected_invoice'
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 40, in init_ui
+    self.tally_view = TallyWidget(self.db, self)
+  File "g:\bhumi billing\ui\tally_widget.py", line 16, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\tally_widget.py", line 85, in init_ui
+    print_btn.clicked.connect(self.print_selected_invoice)
+AttributeError: 'TallyWidget' object has no attribute 'print_selected_invoice'
+2026-06-22 02:37:25,649 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:37:25,691 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:37:26,102 [CRITICAL] BhumiBilling.Main: Failed to launch application context: 'TallyWidget' object has no attribute 'print_selected_invoice'
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 40, in init_ui
+    self.tally_view = TallyWidget(self.db, self)
+  File "g:\bhumi billing\ui\tally_widget.py", line 17, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\tally_widget.py", line 86, in init_ui
+    print_btn.clicked.connect(self.print_selected_invoice)
+AttributeError: 'TallyWidget' object has no attribute 'print_selected_invoice'
+2026-06-22 02:38:07,975 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:38:08,062 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:38:09,950 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:44:39,168 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:44:39,209 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:44:40,547 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 02:50:55,736 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 02:50:55,805 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 02:50:57,170 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:30:54,242 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:30:54,367 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:30:56,336 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:39:33,462 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:39:33,534 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:39:35,642 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:50:16,684 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:50:16,732 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:50:16,754 [CRITICAL] BhumiBilling.Main: Failed to launch application context: name 'Qt' is not defined
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "g:\bhumi billing\ui\billing_widget.py", line 31, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\billing_widget.py", line 66, in init_ui
+    add_cust_btn.setFocusPolicy(Qt.NoFocus)
+NameError: name 'Qt' is not defined
+2026-06-22 09:50:43,866 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "g:\bhumi billing\ui\billing_widget.py", line 31, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\billing_widget.py", line 66, in init_ui
+    add_cust_btn.setFocusPolicy(Qt.NoFocus)
+NameError: name 'Qt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 72, in <module>
+    main()
+  File "g:\bhumi billing\main.py", line 67, in main
+    QMessageBox.critical(None, "Application Launch Failed",
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 289, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1):
+KeyboardInterrupt
+2026-06-22 09:52:28,914 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:52:28,965 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:52:28,987 [CRITICAL] BhumiBilling.Main: Failed to launch application context: name 'Qt' is not defined
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "g:\bhumi billing\ui\billing_widget.py", line 31, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\billing_widget.py", line 66, in init_ui
+    add_cust_btn.setFocusPolicy(Qt.NoFocus)
+NameError: name 'Qt' is not defined
+2026-06-22 09:53:31,088 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:53:31,168 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:53:33,124 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:55:22,200 [ERROR] BhumiBilling.PrintManager: Printing failed: 'PySide6.QtPrintSupport.QPrinter' object has no attribute 'setPaperSize'
+2026-06-22 09:58:21,489 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:58:21,543 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:58:23,616 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:58:33,700 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "g:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "g:\bhumi billing\ui\billing_widget.py", line 31, in __init__
+    self.init_ui()
+  File "g:\bhumi billing\ui\billing_widget.py", line 66, in init_ui
+    add_cust_btn.setFocusPolicy(Qt.NoFocus)
+NameError: name 'Qt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\bhumi billing\main.py", line 72, in <module>
+    main()
+  File "g:\bhumi billing\main.py", line 67, in main
+    QMessageBox.critical(None, "Application Launch Failed",
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 289, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1):
+KeyboardInterrupt
+2026-06-22 09:58:49,876 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:58:49,924 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 09:58:52,128 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 09:59:59,659 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 09:59:59,701 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:00:01,189 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:03:27,302 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:03:27,601 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:03:35,892 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:03:49,925 [ERROR] BhumiBilling.PrintManager: Printing failed: 'PySide6.QtPrintSupport.QPrinter' object has no attribute 'setOrientation'
+2026-06-22 10:04:34,430 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:04:34,883 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:04:37,395 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:08:41,988 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:08:42,031 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:08:43,856 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:12:26,655 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:12:26,700 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:12:28,024 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:12:36,980 [ERROR] BhumiBilling.PrintManager: Printing failed: name 'doc' is not defined
+2026-06-22 10:14:18,458 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:14:18,500 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:14:19,917 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-22 10:19:33,123 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-22 10:19:33,228 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-22 10:19:34,811 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:06:19,777 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:06:19,928 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-06-23 00:06:19,989 [INFO] BhumiBilling.Backup: Auto-backup completed: g:\bhumi billing\data\backups\bhumi_billing_backup_20260623.db
+2026-06-23 00:06:22,097 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:18:00,680 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:18:00,721 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:18:02,483 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:18:57,501 [WARNING] BhumiBilling.PrintManager: Failed to save thermal invoice PDF: Failed to save thermal invoice PDF: cannot import name 'QPageSize' from 'PySide6.QtPrintSupport' (G:\bhumi billing\venv\lib\site-packages\PySide6\QtPrintSupport.pyd)
+2026-06-23 00:20:43,679 [WARNING] BhumiBilling.PrintManager: Failed to save thermal invoice PDF: Failed to save thermal invoice PDF: cannot import name 'QPageSize' from 'PySide6.QtPrintSupport' (G:\bhumi billing\venv\lib\site-packages\PySide6\QtPrintSupport.pyd)
+2026-06-23 00:24:18,514 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:24:18,607 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:24:20,299 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:24:33,643 [WARNING] BhumiBilling.PrintManager: Failed to save thermal invoice PDF: Failed to save thermal invoice PDF: cannot import name 'QMarginsF' from 'PySide6.QtGui' (G:\bhumi billing\venv\lib\site-packages\PySide6\QtGui.pyd)
+2026-06-23 00:27:42,352 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:27:42,435 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:27:43,867 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:28:02,076 [INFO] BhumiBilling.PrintManager: Thermal invoice saved to G:\bhumi billing\invoice_BAJ-2026-0033.pdf
+2026-06-23 00:28:43,570 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:28:43,646 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:28:46,081 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:28:56,719 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:28:56,803 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:28:58,654 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:29:49,501 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-23 00:29:49,546 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-23 00:29:50,872 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-23 00:31:02,374 [INFO] BhumiBilling.PrintManager: Thermal invoice saved to G:\bhumi billing\Thermal\invoice_BAJ-2026-0034.pdf
+2026-06-29 10:19:09,252 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:19:09,525 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-06-29 10:19:09,553 [INFO] BhumiBilling.Backup: Auto-backup completed: G:\bhumi billing\data\backups\bhumi_billing_backup_20260629.db
+2026-06-29 10:19:10,047 [CRITICAL] BhumiBilling.Main: Failed to launch application context: 'SettingsWidget' object has no attribute 'edit_footer'
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 41, in init_ui
+    self.settings_view = SettingsWidget(self.db, self)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\settings_widget.py", line 19, in __init__
+    self.load_settings()
+  File "G:\bhumi billing\ui\settings_widget.py", line 115, in load_settings
+    self.edit_footer.setText(settings.get("footer_message", ""))
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsWidget' object has no attribute 'edit_footer'
+2026-06-29 10:20:34,264 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:20:34,315 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 10:20:34,635 [CRITICAL] BhumiBilling.Main: Failed to launch application context: 'SettingsWidget' object has no attribute 'edit_pdf_dir'
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 41, in init_ui
+    self.settings_view = SettingsWidget(self.db, self)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\settings_widget.py", line 19, in __init__
+    self.load_settings()
+  File "G:\bhumi billing\ui\settings_widget.py", line 123, in load_settings
+    self.edit_pdf_dir.setText(settings.get("pdf_save_dir", ""))
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'SettingsWidget' object has no attribute 'edit_pdf_dir'
+2026-06-29 10:21:35,436 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:21:35,494 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 10:21:40,867 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 10:27:03,844 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:27:05,201 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 10:27:09,542 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 10:34:16,771 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:34:16,899 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 10:34:17,511 [CRITICAL] BhumiBilling.Main: Failed to launch application context: 'BillingWidget' object has no attribute 'pdf_btn'
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\bhumi billing\ui\billing_widget.py", line 31, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\billing_widget.py", line 232, in init_ui
+    self.pdf_btn.setObjectName("info_btn")
+    ^^^^^^^^^^^^
+AttributeError: 'BillingWidget' object has no attribute 'pdf_btn'
+2026-06-29 10:37:56,495 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 10:37:58,153 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 10:38:02,635 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:01:56,588 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:01:57,262 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:01:59,860 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:08:55,439 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:08:55,614 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:08:57,195 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:28:23,876 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:28:24,045 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:28:25,697 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:28:37,660 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_112837.pdf
+2026-06-29 11:28:37,683 [ERROR] BhumiBilling.PrintManager: Failed to print PDF G:\bhumi billing\temp\invoice_20260629_112837.pdf: [WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_112837.pdf'
+2026-06-29 11:28:37,684 [ERROR] BhumiBilling.PrintManager: Printing failed: [WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_112837.pdf'
+2026-06-29 11:31:44,800 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:31:44,872 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:31:46,505 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:35:30,279 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:35:30,323 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:35:31,410 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:37:29,869 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_113729.pdf
+2026-06-29 11:37:29,888 [WARNING] BhumiBilling.PrintManager: os.startfile print failed ([WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_113729.pdf'); attempting PowerShell fallback.
+2026-06-29 11:37:30,652 [ERROR] BhumiBilling.PrintManager: PowerShell print command failed (code 1): Start-Process : This command cannot be run due to the error: No 
+application is associated with the specified file for this operation.
+At line:1 char:1
++ Start-Process -FilePath "G:\bhumi 
+billing\temp\invoice_20260629_11372 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], I 
+   nvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.Powe 
+   rShell.Commands.StartProcessCommand
+ 
+
+2026-06-29 11:37:30,657 [WARNING] BhumiBilling.PrintManager: All automatic printing methods failed: [WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_113729.pdf'. Opening PDF for manual handling.
+2026-06-29 11:37:30,782 [INFO] BhumiBilling.PrintManager: Opened PDF for manual printing: G:\bhumi billing\temp\invoice_20260629_113729.pdf
+2026-06-29 11:46:31,923 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:46:32,001 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:46:33,506 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:47:48,712 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_114748.pdf
+2026-06-29 11:47:48,735 [WARNING] BhumiBilling.PrintManager: os.startfile print failed ([WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_114748.pdf'); attempting PowerShell fallback.
+2026-06-29 11:47:49,859 [ERROR] BhumiBilling.PrintManager: PowerShell print command failed (code 1): Start-Process : This command cannot be run due to the error: No 
+application is associated with the specified file for this operation.
+At line:1 char:1
++ Start-Process -FilePath "G:\bhumi 
+billing\temp\invoice_20260629_11474 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], I 
+   nvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.Powe 
+   rShell.Commands.StartProcessCommand
+ 
+
+2026-06-29 11:47:49,862 [WARNING] BhumiBilling.PrintManager: All automatic printing methods failed: [WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_114748.pdf'. Opening PDF for manual handling.
+2026-06-29 11:47:50,005 [INFO] BhumiBilling.PrintManager: Opened PDF for manual printing: G:\bhumi billing\temp\invoice_20260629_114748.pdf
+2026-06-29 11:52:56,560 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 11:52:56,643 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 11:52:58,304 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 11:53:11,076 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_115311.pdf
+2026-06-29 11:53:11,102 [WARNING] BhumiBilling.PrintManager: os.startfile print failed ([WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_115311.pdf'); attempting PowerShell fallback.
+2026-06-29 11:53:12,211 [ERROR] BhumiBilling.PrintManager: PowerShell print command failed (code 1): Start-Process : This command cannot be run due to the error: No application is associated with the specified file for 
+this operation.
+At line:1 char:1
++ Start-Process -FilePath "G:\bhumi billing\temp\invoice_20260629_11531 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+
+2026-06-29 11:53:12,212 [WARNING] BhumiBilling.PrintManager: All automatic printing methods failed: [WinError 1155] No application is associated with the specified file for this operation: 'G:\\bhumi billing\\temp\\invoice_20260629_115311.pdf'. Opening PDF for manual handling.
+2026-06-29 11:53:12,327 [INFO] BhumiBilling.PrintManager: Opened PDF for manual printing: G:\bhumi billing\temp\invoice_20260629_115311.pdf
+2026-06-29 12:01:02,834 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:01:02,916 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:01:04,616 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:01:16,631 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_120116.pdf
+2026-06-29 12:01:16,706 [ERROR] BhumiBilling.PrintManager: Printing failed: unsupported operand type(s) for |: 'type' and 'NoneType'
+2026-06-29 12:02:29,769 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:02:29,815 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:02:30,986 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:02:46,363 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_120246.pdf
+2026-06-29 12:02:46,373 [ERROR] BhumiBilling.PrintManager: Printing failed: unsupported operand type(s) for |: 'type' and 'NoneType'
+2026-06-29 12:13:01,232 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121301.pdf
+2026-06-29 12:13:01,250 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121301.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:13:01,273 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:13:12,080 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121312.pdf
+2026-06-29 12:13:12,081 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121312.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:13:12,085 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:13:50,110 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\print_manager.py", line 72, in print_invoice
+    PDFPrintManager.print_pdf(pdf_path, printer_name)
+  File "G:\bhumi billing\print_manager.py", line 33, in print_pdf
+    print_pdf_direct(pdf_path, printer_name)
+  File "G:\bhumi billing\pdf_printer_win.py", line 26, in print_pdf_direct
+    rc = win32api.ShellExecute(
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 886, in save_and_print_action
+    PrintManager().print_invoice(inv_data, self.app_settings)
+  File "G:\bhumi billing\print_manager.py", line 86, in print_invoice
+    raise RuntimeError(f"Printer error: {e}")
+RuntimeError: Printer error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 899, in save_and_print_action
+    QMessageBox.critical(self, "Print Failure", f"Failed to finalize print job: {e}")
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 315, in __call__
+    return cls.__new__(cls, value)
+SystemError: <method-wrapper '__getattribute__' of EnumMeta object at 0x000002035524BE80> returned a result with an error set
+2026-06-29 12:14:00,111 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:14:00,158 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:14:01,634 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:14:14,851 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121414.pdf
+2026-06-29 12:14:14,861 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121414.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:14:14,885 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:15:00,982 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+2026-06-29 12:15:40,447 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121540.pdf
+2026-06-29 12:15:40,448 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121540.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:15:40,455 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:15:45,815 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121545.pdf
+2026-06-29 12:15:45,816 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121545.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:15:45,820 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:15:51,787 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:15:51,831 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:15:53,087 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:16:05,122 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121605.pdf
+2026-06-29 12:16:05,134 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121605.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:16:05,153 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:17:27,290 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+2026-06-29 12:17:33,649 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:17:33,707 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:17:35,078 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:17:40,441 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_121740.pdf
+2026-06-29 12:17:40,452 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_121740.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:17:40,476 [ERROR] BhumiBilling.PrintManager: Printing failed: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 12:19:46,800 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:19:46,882 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:19:48,324 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:20:37,747 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_122037.pdf
+2026-06-29 12:20:37,763 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_122037.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:20:37,788 [ERROR] BhumiBilling.PDFPrinterWin: win32print printing failed: StartDocPrinter() argument 3 must be 3-item sequence, not dict
+2026-06-29 12:20:37,789 [ERROR] BhumiBilling.PrintManager: Printing failed: StartDocPrinter() argument 3 must be 3-item sequence, not dict
+2026-06-29 12:25:31,575 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:25:31,681 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:25:33,531 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:26:05,945 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_122605.pdf
+2026-06-29 12:26:05,960 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_122605.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:26:06,129 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_122605.pdf
+2026-06-29 12:27:01,734 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_122701.pdf
+2026-06-29 12:27:01,735 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_122701.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:27:01,847 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_122701.pdf
+2026-06-29 12:28:16,470 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_122816.pdf
+2026-06-29 12:28:16,470 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_122816.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:28:16,583 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_122816.pdf
+2026-06-29 12:28:57,937 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_122857.pdf
+2026-06-29 12:28:57,937 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_122857.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:28:58,035 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_122857.pdf
+2026-06-29 12:30:06,328 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_123006.pdf
+2026-06-29 12:30:06,328 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_123006.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:30:06,433 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_123006.pdf
+2026-06-29 12:47:10,681 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:47:12,552 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:47:18,020 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:48:16,949 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_124815.pdf
+2026-06-29 12:48:17,840 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_124815.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:48:19,183 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_124815.pdf
+2026-06-29 12:54:32,965 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:54:33,546 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:54:34,678 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:55:27,201 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_125527.pdf
+2026-06-29 12:55:27,503 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_125527.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:55:27,647 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_125527.pdf
+2026-06-29 12:58:10,688 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 12:58:10,742 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 12:58:11,823 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 12:58:19,424 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_125819.pdf
+2026-06-29 12:58:19,436 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_125819.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:58:19,596 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_125819.pdf
+2026-06-29 12:59:58,394 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_125958.pdf
+2026-06-29 12:59:58,395 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_125958.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 12:59:58,517 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_125958.pdf
+2026-06-29 13:02:29,198 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_130229.pdf
+2026-06-29 13:02:29,199 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_130229.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 13:02:29,298 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_130229.pdf
+2026-06-29 13:03:37,198 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:03:37,247 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:03:38,314 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:04:01,371 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_130401.pdf
+2026-06-29 13:04:01,381 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_130401.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 13:04:01,515 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_130401.pdf
+2026-06-29 13:05:22,177 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:05:22,231 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:05:23,652 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:05:33,205 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_130533.pdf
+2026-06-29 13:05:33,218 [INFO] BhumiBilling.PDFPrinterWin: Printing PDF G:\bhumi billing\temp\invoice_20260629_130533.pdf to printer 'Samsung SCX-3400 Series'
+2026-06-29 13:05:33,356 [INFO] BhumiBilling.PDFPrinterWin: Printed PDF via win32print successfully: G:\bhumi billing\temp\invoice_20260629_130533.pdf
+2026-06-29 13:06:07,792 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:06:07,843 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:06:08,969 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:06:21,048 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_130621.pdf
+2026-06-29 13:06:21,061 [ERROR] BhumiBilling.PrintManager: Printing failed: cannot import name 'print_pdf_direct' from 'pdf_printer_win' (G:\bhumi billing\pdf_printer_win.py)
+2026-06-29 13:07:44,271 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\print_manager.py", line 72, in print_invoice
+    PDFPrintManager.print_pdf(pdf_path, printer_name)
+  File "G:\bhumi billing\print_manager.py", line 32, in print_pdf
+    from pdf_printer_win import print_pdf_direct
+ImportError: cannot import name 'print_pdf_direct' from 'pdf_printer_win' (G:\bhumi billing\pdf_printer_win.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 886, in save_and_print_action
+    PrintManager().print_invoice(inv_data, self.app_settings)
+  File "G:\bhumi billing\print_manager.py", line 86, in print_invoice
+    raise RuntimeError(f"Printer error: {e}")
+RuntimeError: Printer error: cannot import name 'print_pdf_direct' from 'pdf_printer_win' (G:\bhumi billing\pdf_printer_win.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 899, in save_and_print_action
+    QMessageBox.critical(self, "Print Failure", f"Failed to finalize print job: {e}")
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 315, in __call__
+    return cls.__new__(cls, value)
+SystemError: <method-wrapper '__getattribute__' of EnumMeta object at 0x00000241E793F060> returned a result with an error set
+2026-06-29 13:07:50,394 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:07:50,446 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:07:51,559 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:07:59,253 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_130759.pdf
+2026-06-29 13:07:59,268 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_130759.pdf' to 'Samsung SCX-3400 Series'
+2026-06-29 13:07:59,422 [ERROR] BhumiBilling.PDFPrinter: PDF printing failed
+Traceback (most recent call last):
+  File "G:\bhumi billing\pdf_printer_win.py", line 39, in print_pdf_direct
+    result = win32api.ShellExecute(
+pywintypes.error: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 13:07:59,425 [ERROR] BhumiBilling.PrintManager: Printing failed: Failed to print PDF: (31, 'ShellExecute', 'A device attached to the system is not functioning.')
+2026-06-29 13:14:23,080 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:14:23,183 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:14:24,263 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:14:32,212 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_131432.pdf
+2026-06-29 13:14:32,268 [ERROR] BhumiBilling.PrintManager: Printing failed: SumatraPDF.exe not found: G:\bhumi billing\SumatraPDF.exe
+2026-06-29 13:15:40,656 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+2026-06-29 13:15:43,236 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_131543.pdf
+2026-06-29 13:15:43,237 [ERROR] BhumiBilling.PrintManager: Printing failed: SumatraPDF.exe not found: G:\bhumi billing\SumatraPDF.exe
+2026-06-29 13:15:49,341 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_131549.pdf
+2026-06-29 13:15:49,342 [ERROR] BhumiBilling.PrintManager: Printing failed: SumatraPDF.exe not found: G:\bhumi billing\SumatraPDF.exe
+2026-06-29 13:15:56,974 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:15:57,026 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:15:58,407 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:16:11,129 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_131611.pdf
+2026-06-29 13:16:11,136 [ERROR] BhumiBilling.PrintManager: Printing failed: SumatraPDF.exe not found: G:\bhumi billing\SumatraPDF.exe
+2026-06-29 13:19:09,799 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+2026-06-29 13:19:20,132 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:19:20,229 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:19:21,315 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:19:31,213 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_131931.pdf
+2026-06-29 13:19:31,218 [ERROR] BhumiBilling.PrintManager: Printing failed: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (pdf_printer_win.py, line 37)
+2026-06-29 13:20:31,606 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 666, in eventFilter
+    def eventFilter(self, obj, event):
+KeyboardInterrupt
+2026-06-29 13:20:39,297 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:20:39,347 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:20:40,529 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:20:54,403 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_132054.pdf
+2026-06-29 13:20:54,442 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_132054.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 13:20:54,446 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_132054.pdf
+2026-06-29 13:20:54,449 [ERROR] BhumiBilling.PDFPrinter: PDF printing failed
+Traceback (most recent call last):
+  File "G:\bhumi billing\pdf_printer_win.py", line 58, in print_pdf_direct
+    result = subprocess.run(
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 501, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 947, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1416, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+PermissionError: [WinError 5] Access is denied
+2026-06-29 13:20:54,459 [ERROR] BhumiBilling.PrintManager: Printing failed: Failed to print PDF: [WinError 5] Access is denied
+2026-06-29 13:23:18,877 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 13:23:18,931 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 13:23:20,140 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 13:23:26,853 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_132326.pdf
+2026-06-29 13:23:26,863 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_132326.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 13:23:26,863 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_132326.pdf
+2026-06-29 13:23:28,429 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 13:54:02,538 [INFO] BhumiBilling.PDFGeneratorA5: A5 PDF invoice generated at G:\bhumi billing\temp\invoice_20260629_135402.pdf
+2026-06-29 13:54:02,539 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_135402.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 13:54:02,540 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_135402.pdf
+2026-06-29 13:54:04,583 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 14:20:02,012 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 14:20:02,065 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 14:20:03,752 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 14:20:13,638 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_142013.pdf
+2026-06-29 14:20:13,749 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_142013.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 14:20:13,750 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_142013.pdf
+2026-06-29 14:20:15,420 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 14:28:53,068 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 14:28:53,161 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 14:28:54,334 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 14:29:06,521 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_142906.pdf
+2026-06-29 14:29:06,592 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_142906.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 14:29:06,593 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_142906.pdf
+2026-06-29 14:29:08,248 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 14:31:16,581 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_143116.pdf
+2026-06-29 14:31:16,583 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_143116.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 14:31:16,584 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_143116.pdf
+2026-06-29 14:31:17,929 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 14:32:15,931 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_143215.pdf
+2026-06-29 14:32:15,932 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_143215.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 14:32:15,933 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_143215.pdf
+2026-06-29 14:32:17,186 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 17:21:29,726 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 17:21:31,234 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 17:21:35,146 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 17:21:49,424 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_172149.pdf
+2026-06-29 17:21:49,534 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_172149.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 17:21:49,535 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_172149.pdf
+2026-06-29 17:21:51,731 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 17:28:02,332 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_172802.pdf
+2026-06-29 17:28:02,334 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_172802.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 17:28:02,334 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_172802.pdf
+2026-06-29 17:28:04,434 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 17:28:25,102 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 17:28:25,238 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 17:28:26,395 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 17:28:34,271 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_172834.pdf
+2026-06-29 17:28:34,340 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_172834.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 17:28:34,341 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_172834.pdf
+2026-06-29 17:28:35,501 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 17:30:46,910 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_173046.pdf
+2026-06-29 17:30:46,911 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_173046.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 17:30:46,912 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_173046.pdf
+2026-06-29 17:30:48,095 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-29 17:46:12,926 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 17:46:13,072 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 17:46:14,919 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 23:25:45,001 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 23:25:46,458 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 23:25:56,442 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 23:58:15,011 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 72, in <module>
+    main()
+  File "G:\bhumi billing\main.py", line 63, in main
+    sys.exit(app.exec())
+KeyboardInterrupt
+2026-06-29 23:58:27,614 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-29 23:58:27,979 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-29 23:58:30,585 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-29 23:59:56,446 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260629_235956.pdf
+2026-06-29 23:59:56,516 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260629_235956.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-29 23:59:56,518 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260629_235956.pdf
+2026-06-29 23:59:58,302 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 00:25:54,875 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:25:56,149 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-06-30 00:25:56,234 [INFO] BhumiBilling.Backup: Auto-backup completed: G:\bhumi billing\data\backups\bhumi_billing_backup_20260630.db
+2026-06-30 00:26:00,375 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 00:26:43,504 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\data\invoices\BAJ_2026_0090.pdf
+2026-06-30 00:27:15,198 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_002715.pdf
+2026-06-30 00:27:15,235 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_002715.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 00:27:15,236 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_002715.pdf
+2026-06-30 00:27:16,741 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 00:41:58,111 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 671, in eventFilter
+KeyboardInterrupt
+2026-06-30 00:42:06,601 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:42:06,823 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:42:06,882 [CRITICAL] BhumiBilling.Main: Failed to launch application context: name 'QKeyEvent' is not defined
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "G:\bhumi billing\ui\billing_widget.py", line 74, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\billing_widget.py", line 103, in init_ui
+    header_layout.addWidget(self.cust_search)
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    if event.type() == QKeyEvent.KeyPress:
+NameError: name 'QKeyEvent' is not defined
+2026-06-30 00:42:13,691 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "G:\bhumi billing\ui\billing_widget.py", line 74, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\billing_widget.py", line 103, in init_ui
+    header_layout.addWidget(self.cust_search)
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    if event.type() == QKeyEvent.KeyPress:
+NameError: name 'QKeyEvent' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    if event.type() == QKeyEvent.KeyPress:
+NameError: name 'QKeyEvent' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 72, in <module>
+    main()
+  File "G:\bhumi billing\main.py", line 67, in main
+    QMessageBox.critical(None, "Application Launch Failed",
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 315, in __call__
+    return cls.__new__(cls, value)
+SystemError: <method-wrapper '__getattribute__' of EnumMeta object at 0x000001D91E6C6DA0> returned a result with an error set
+2026-06-30 00:43:47,314 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:43:47,359 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:43:47,373 [CRITICAL] BhumiBilling.Main: Failed to launch application context: name 'QKeyEvent' is not defined
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "G:\bhumi billing\ui\billing_widget.py", line 74, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\billing_widget.py", line 103, in init_ui
+    header_layout.addWidget(self.cust_search)
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    if event.type() == QKeyEvent.KeyPress:
+NameError: name 'QKeyEvent' is not defined
+2026-06-30 00:46:12,048 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 59, in main
+    window = MainWindow(db_manager)
+  File "G:\bhumi billing\ui\main_window.py", line 24, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\main_window.py", line 37, in init_ui
+    self.billing_view = BillingWidget(self.db, self)
+  File "G:\bhumi billing\ui\billing_widget.py", line 74, in __init__
+    self.init_ui()
+  File "G:\bhumi billing\ui\billing_widget.py", line 103, in init_ui
+    header_layout.addWidget(self.cust_search)
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    if event.type() == QKeyEvent.KeyPress:
+NameError: name 'QKeyEvent' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\bhumi billing\main.py", line 72, in <module>
+    main()
+  File "G:\bhumi billing\main.py", line 67, in main
+    QMessageBox.critical(None, "Application Launch Failed",
+  File "C:\Users\Rajat\AppData\Local\Programs\Python\Python39\lib\enum.py", line 289, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1):
+KeyboardInterrupt
+2026-06-30 00:47:38,856 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:47:38,904 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:47:41,332 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 00:48:14,440 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:48:14,485 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:48:15,758 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 00:48:38,886 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\tally_widget.py", line 202, in on_bill_double_clicked
+    dialog = BillDetailsDialog(self.db, bill_no, self)
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 36, in __init__
+    self.refresh_ui()
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 243, in refresh_ui
+    self.lbl_cust_name.setText(self.invoice.get("customer_name") or "Walk-in Customer")
+AttributeError: 'BillDetailsDialog' object has no attribute 'lbl_cust_name'
+2026-06-30 00:48:42,206 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\tally_widget.py", line 202, in on_bill_double_clicked
+    dialog = BillDetailsDialog(self.db, bill_no, self)
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 36, in __init__
+    self.refresh_ui()
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 243, in refresh_ui
+    self.lbl_cust_name.setText(self.invoice.get("customer_name") or "Walk-in Customer")
+AttributeError: 'BillDetailsDialog' object has no attribute 'lbl_cust_name'
+2026-06-30 00:51:41,679 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\data\invoices\BAJ_2026_0091.pdf
+2026-06-30 00:55:48,190 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 718, in eventFilter
+    # KEYBOARD ROUTINGS & INLINE EVENTS
+KeyboardInterrupt
+2026-06-30 00:55:56,241 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:55:56,476 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:55:58,257 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 00:56:43,051 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:56:43,098 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:56:44,377 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 00:57:49,932 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 00:57:49,981 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 00:57:51,256 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:01:17,019 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 720, in eventFilter
+    else: # Partial
+KeyboardInterrupt
+2026-06-30 01:01:23,731 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 01:01:23,780 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 01:01:25,078 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:01:40,703 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\tally_widget.py", line 202, in on_bill_double_clicked
+    dialog = BillDetailsDialog(self.db, bill_no, self)
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 36, in __init__
+    self.refresh_ui()
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 243, in refresh_ui
+    self.lbl_cust_name.setText(self.invoice.get("customer_name") or "Walk-in Customer")
+AttributeError: 'BillDetailsDialog' object has no attribute 'lbl_cust_name'
+2026-06-30 01:01:46,460 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\tally_widget.py", line 202, in on_bill_double_clicked
+    dialog = BillDetailsDialog(self.db, bill_no, self)
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 36, in __init__
+    self.refresh_ui()
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 243, in refresh_ui
+    self.lbl_cust_name.setText(self.invoice.get("customer_name") or "Walk-in Customer")
+AttributeError: 'BillDetailsDialog' object has no attribute 'lbl_cust_name'
+2026-06-30 01:01:54,606 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\tally_widget.py", line 202, in on_bill_double_clicked
+    dialog = BillDetailsDialog(self.db, bill_no, self)
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 36, in __init__
+    self.refresh_ui()
+  File "G:\bhumi billing\ui\bill_details_dialog.py", line 243, in refresh_ui
+    self.lbl_cust_name.setText(self.invoice.get("customer_name") or "Walk-in Customer")
+AttributeError: 'BillDetailsDialog' object has no attribute 'lbl_cust_name'
+2026-06-30 01:06:09,926 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 01:06:09,971 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 01:06:11,147 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:15:25,419 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 01:15:25,465 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 01:15:26,744 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:23:35,859 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 01:23:35,919 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 01:23:37,204 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:31:47,311 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\data\invoices\BAJ_2026_0091.pdf
+2026-06-30 01:33:02,826 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_013302.pdf
+2026-06-30 01:33:02,957 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_013302.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 01:33:02,958 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_013302.pdf
+2026-06-30 01:33:04,518 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 01:53:59,181 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_015359.pdf
+2026-06-30 01:53:59,183 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_015359.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 01:53:59,183 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_015359.pdf
+2026-06-30 01:54:00,631 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 01:58:56,412 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 01:58:56,510 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 01:58:58,556 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 01:59:07,465 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_015907.pdf
+2026-06-30 01:59:07,535 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_015907.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 01:59:07,536 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_015907.pdf
+2026-06-30 01:59:09,097 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:04:26,789 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:04:26,840 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:04:28,518 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:04:36,816 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_020436.pdf
+2026-06-30 02:04:36,886 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_020436.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:04:36,887 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_020436.pdf
+2026-06-30 02:04:38,197 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:06:58,723 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:06:58,779 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:07:00,075 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:07:09,108 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_020709.pdf
+2026-06-30 02:07:09,115 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_020709.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:07:09,117 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_020709.pdf
+2026-06-30 02:07:10,548 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:09:49,935 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:09:49,989 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:09:51,976 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:10:04,612 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_021004.pdf
+2026-06-30 02:10:04,683 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_021004.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:10:04,688 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_021004.pdf
+2026-06-30 02:10:06,036 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:10:56,252 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:10:56,336 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:10:57,538 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:11:04,780 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_021104.pdf
+2026-06-30 02:11:04,787 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_021104.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:11:04,788 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_021104.pdf
+2026-06-30 02:11:05,971 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:11:44,440 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:11:44,495 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:11:45,709 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:11:55,057 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_021155.pdf
+2026-06-30 02:11:55,063 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_021155.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:11:55,064 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_021155.pdf
+2026-06-30 02:11:56,206 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:17:51,452 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:17:51,511 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:17:52,777 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:18:01,538 [ERROR] BhumiBilling.PrintManager: Printing failed: local variable 'net' referenced before assignment
+2026-06-30 02:18:07,349 [ERROR] BhumiBilling.PrintManager: Printing failed: local variable 'net' referenced before assignment
+2026-06-30 02:19:25,161 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:19:25,207 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:19:26,510 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:19:32,836 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_021932.pdf
+2026-06-30 02:19:32,843 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_021932.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:19:32,844 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_021932.pdf
+2026-06-30 02:19:34,173 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:24:57,746 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:24:57,808 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:24:59,464 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:25:07,663 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_022507.pdf
+2026-06-30 02:25:07,735 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_022507.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:25:07,736 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_022507.pdf
+2026-06-30 02:25:09,393 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:30:49,069 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:30:49,178 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:30:51,019 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:31:07,526 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_023107.pdf
+2026-06-30 02:31:07,599 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_023107.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 02:31:07,599 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_023107.pdf
+2026-06-30 02:31:09,140 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 02:47:01,066 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:47:01,127 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:47:02,794 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 02:55:12,197 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 02:55:12,250 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 02:55:13,532 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 03:04:52,162 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 03:04:52,213 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 03:04:54,164 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 03:04:58,866 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 770, in eventFilter
+    self.process_smart_enter()
+AttributeError: 'BillingWidget' object has no attribute 'process_smart_enter'
+2026-06-30 03:05:31,284 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 795, in eventFilter
+    self.process_smart_enter()
+AttributeError: 'BillingWidget' object has no attribute 'process_smart_enter'
+2026-06-30 03:05:36,214 [CRITICAL] BhumiBilling.Main: Unhandled exception caught:
+Traceback (most recent call last):
+  File "G:\bhumi billing\ui\billing_widget.py", line 795, in eventFilter
+    self.process_smart_enter()
+AttributeError: 'BillingWidget' object has no attribute 'process_smart_enter'
+2026-06-30 03:09:03,080 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 03:09:03,130 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 03:09:04,353 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 03:09:33,588 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\data\invoices\BAJ_2026_0105.pdf
+2026-06-30 03:10:05,951 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_031005.pdf
+2026-06-30 03:10:06,082 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_031005.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 03:10:06,083 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_031005.pdf
+2026-06-30 03:10:07,724 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:22:54,015 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 11:22:54,332 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 11:22:57,529 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 11:24:21,340 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_112421.pdf
+2026-06-30 11:24:21,442 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_112421.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:24:21,443 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_112421.pdf
+2026-06-30 11:24:24,683 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:25:13,961 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_112513.pdf
+2026-06-30 11:25:13,964 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_112513.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:25:13,967 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_112513.pdf
+2026-06-30 11:25:16,720 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:28:38,886 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_112838.pdf
+2026-06-30 11:28:38,887 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_112838.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:28:38,888 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_112838.pdf
+2026-06-30 11:28:41,840 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:34:51,600 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 11:34:52,171 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 11:34:54,188 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 11:35:02,914 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_113502.pdf
+2026-06-30 11:35:03,154 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_113502.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:35:03,156 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_113502.pdf
+2026-06-30 11:35:04,961 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:35:58,399 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 11:35:58,451 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 11:35:59,737 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 11:36:05,664 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_113605.pdf
+2026-06-30 11:36:05,671 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_113605.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:36:05,672 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_113605.pdf
+2026-06-30 11:36:08,295 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-06-30 11:36:40,731 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-06-30 11:36:40,833 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-06-30 11:36:42,498 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-06-30 11:36:48,530 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260630_113648.pdf
+2026-06-30 11:36:48,601 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260630_113648.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-06-30 11:36:48,602 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260630_113648.pdf
+2026-06-30 11:36:49,952 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 15:23:38,834 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:23:38,974 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-07-01 15:23:39,021 [INFO] BhumiBilling.Backup: Auto-backup completed: G:\bhumi billing\data\backups\bhumi_billing_backup_20260701.db
+2026-07-01 15:23:42,287 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:24:31,103 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_152431.pdf
+2026-07-01 15:24:31,166 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_152431.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 15:24:31,166 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_152431.pdf
+2026-07-01 15:24:32,509 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 15:40:20,044 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:40:21,531 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:40:25,923 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:41:19,148 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_154119.pdf
+2026-07-01 15:41:19,214 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_154119.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 15:41:19,216 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_154119.pdf
+2026-07-01 15:41:20,855 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 15:43:37,749 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:43:37,872 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:43:39,700 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:43:46,724 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_154346.pdf
+2026-07-01 15:43:46,795 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_154346.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 15:43:46,796 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_154346.pdf
+2026-07-01 15:43:48,440 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 15:44:46,237 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:44:46,287 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:44:47,787 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:44:58,575 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_154458.pdf
+2026-07-01 15:44:58,583 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_154458.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 15:44:58,585 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_154458.pdf
+2026-07-01 15:45:00,320 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 15:48:04,321 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:48:04,378 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:48:05,827 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:50:22,575 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:50:24,270 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:50:29,463 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:51:06,332 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 15:51:06,486 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 15:51:08,314 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 15:51:19,001 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_155118.pdf
+2026-07-01 15:51:19,071 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_155118.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 15:51:19,072 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_155118.pdf
+2026-07-01 15:51:20,640 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 21:14:43,726 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-01 21:14:45,461 [INFO] BhumiBilling.Backup: Backup for today already exists. Skipping auto-backup.
+2026-07-01 21:14:50,007 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-01 21:29:42,199 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_212942.pdf
+2026-07-01 21:29:42,370 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_212942.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 21:29:42,370 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_212942.pdf
+2026-07-01 21:29:44,214 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 21:30:39,580 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_213039.pdf
+2026-07-01 21:30:39,580 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_213039.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 21:30:39,580 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_213039.pdf
+2026-07-01 21:30:40,658 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-01 21:31:39,312 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260701_213139.pdf
+2026-07-01 21:31:39,312 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260701_213139.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-01 21:31:39,312 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260701_213139.pdf
+2026-07-01 21:31:40,391 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
+2026-07-02 18:45:19,595 [INFO] BhumiBilling.Main: Starting Bhumi Billing version 1.0.0...
+2026-07-02 18:45:20,517 [INFO] BhumiBilling.Backup: No backup found for today. Starting auto-backup...
+2026-07-02 18:45:20,533 [INFO] BhumiBilling.Backup: Auto-backup completed: G:\bhumi billing\data\backups\bhumi_billing_backup_20260702.db
+2026-07-02 18:45:24,642 [INFO] BhumiBilling.Main: Application initialized successfully. Running Qt main loop.
+2026-07-02 19:00:08,562 [INFO] BhumiBilling.PDFGeneratorA5: A5 invoice generated at G:\bhumi billing\temp\invoice_20260702_190008.pdf
+2026-07-02 19:00:08,640 [INFO] BhumiBilling.PDFPrinter: Printing 'G:\bhumi billing\temp\invoice_20260702_190008.pdf' to 'Samsung SCX-3400 Series' using SumatraPDF
+2026-07-02 19:00:08,656 [INFO] BhumiBilling.PDFPrinter: Executing: C:\Users\Rajat\AppData\Local\SumatraPDF\SumatraPDF.exe -print-to Samsung SCX-3400 Series -silent G:\bhumi billing\temp\invoice_20260702_190008.pdf
+2026-07-02 19:00:10,749 [INFO] BhumiBilling.PDFPrinter: Print command sent successfully.
